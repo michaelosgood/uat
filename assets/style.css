@@ -6,9 +6,11 @@
 
 button {
     background: #5eb4cd;
-    /* #fa9477; */
+    /* #fa9477; Orange Color*/
     color: #ffffff;
 }
 .panel-heading {
     text-align: center;
+    /* color: #ffffff !important;
+    background: #fa9477 !important; */
 }
