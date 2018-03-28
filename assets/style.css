@@ -1,11 +1,14 @@
 .jumbotron {
-background: #5eb4cd;
-color: #ffffff;
-text-align: center;
+    background: #5eb4cd;
+    color: #ffffff;
+    text-align: center;
 }
 
 button {
-background: #5eb4cd;
-/* #fa9477; */
-color: #ffffff;
+    background: #5eb4cd;
+    /* #fa9477; */
+    color: #ffffff;
+}
+.panel-heading {
+    text-align: center;
 }
