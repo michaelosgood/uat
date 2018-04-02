@@ -1,25 +1,17 @@
-.jumbotron {
-    background: #5eb4cd;
-    color: #ffffff;
-    text-align: center;
+.navWrapper{
+    width: 100%;
 }
 
+nav {
+    background: #65B3D0;
+    color: #fff;
+    align-content: center;
+}
 button {
     background: #5eb4cd;
-    /* #fa9477; Orange Color*/
     color: #ffffff;
 }
-.panel-heading {
-    text-align: center;
-    color: #ffffff !important;
-    /* background: #fa9477 !important; */
-}
+
 .dropdown {
     position: relative;
-}
-.d-block {
-    width: 100%;
-    height: 200px;
-    background: #d3d3d3;
-
 }
