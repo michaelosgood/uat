@@ -28,6 +28,9 @@ button {
     width: 100%;
 }
 
+button:hover {
+    background: #65b3d0 !important;
+}
 .dropdown {
     position: relative;
 }
