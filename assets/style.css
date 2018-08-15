@@ -34,6 +34,10 @@ button:hover {
 .dropdown {
     position: relative;
 }
+.dropdown a:hover {
+    color:#BABABA;
+    background:#f67f54;
+}
 
 @media screen and (max-width: 992px) {
     button {
