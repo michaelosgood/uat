@@ -23,13 +23,13 @@ p {
 }
 
 button {
-    background: #F66834 !important;
+    background:#f67f54 !important;
     color: #fff;
     width: 100%;
 }
 
 button:hover {
-    background: #f67f54 !important;
+    background: #F66834 !important;
 }
 .dropdown {
     position: relative;
