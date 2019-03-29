@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -8,7 +9,7 @@
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-132212570-1"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
+        function gtag() { dataLayer.push(arguments); }
         gtag('js', new Date());
 
         gtag('config', 'UA-132212570-1');
@@ -16,13 +17,15 @@
     <!-- Favicon -->
     <link rel="shortcut icon" type="images/png" href="assets/images/favicon.png">
     <!-- Bootstrap -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-	<!-- CSS Stylesheet -->
-	<link rel="stylesheet" type="text/css" href="assets/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- CSS Stylesheet -->
+    <link rel="stylesheet" type="text/css" href="assets/style.css">
 </head>
+
 <body>
     <div class="container-fluid">
-		<div class="row">
+        <div class="row">
             <div class="navWrapper">
                 <div class="header">
                     <p class="text-center" id="qa">QA Dashboard</p>
@@ -32,110 +35,155 @@
     </div>
     <div class="container">
         <div class="row">
-             <div class="col-lg-3 col-md-12">
+            <div class="col-lg-1"></div>
+            <div class="col-lg-2 col-md-12">
                 <div class="dropdown">
-                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      Development
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Development
                     </button>
                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                         <a class="dropdown-item" href="https://webdev.prescribewellness.com/" target="_blank">PEC</a>
-                            <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="https://webdev.prescribewellness.com/Home/DynamicCDN?pecCdnEndpoint=pec/enterprise-dashboard/qa/app.bundle.js&pecCdnVendorEndpoint=pec/enterprise-dashboard/qa/vendor.bundle.js" target="_blank">PEC | Enterprise Dashboard CDN</a>
-                            <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="https://webdev.prescribewellness.com/Home/DynamicCDN?pecCdnEndpoint=pec/calendar/qa/app.bundle.js" target="_blank">PEC | Custom Calendar CDN</a>
-                            <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="https://webdev.prescribewellness.com/Home/DynamicCDN?pecCdnEndpoint=pec/vaccinecomplete/qa/app.bundle.js" target="_blank">PEC | VC Patient List CDN</a>
-                            <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="https://webdev.prescribewellness.com/Home/DynamicCDN?pecCdnEndpoint=pec/starwellness/qa/app.bundle.js" target="_blank">PEC | SW Patient List CDN</a>
-                            <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="https://webdev.prescribewellness.com/Home/DynamicCDN?pecCdnEndpoint=pec/patient-list-care/qa/app.bundle.js" target="_blank">PEC | PCARE Patient List CDN</a>
-                            <div class="dropdown-divider"></div>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item"
+                            href="https://webdev.prescribewellness.com/Home/DynamicCDN?pecCdnEndpoint=pec/enterprise-dashboard/qa/app.bundle.js&pecCdnVendorEndpoint=pec/enterprise-dashboard/qa/vendor.bundle.js"
+                            target="_blank">PEC | Enterprise Dashboard CDN</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item"
+                            href="https://webdev.prescribewellness.com/Home/DynamicCDN?pecCdnEndpoint=pec/calendar/qa/app.bundle.js"
+                            target="_blank">PEC | Custom Calendar CDN</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item"
+                            href="https://webdev.prescribewellness.com/Home/DynamicCDN?pecCdnEndpoint=pec/vaccinecomplete/qa/app.bundle.js"
+                            target="_blank">PEC | VC Patient List CDN</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item"
+                            href="https://webdev.prescribewellness.com/Home/DynamicCDN?pecCdnEndpoint=pec/starwellness/qa/app.bundle.js"
+                            target="_blank">PEC | SW Patient List CDN</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item"
+                            href="https://webdev.prescribewellness.com/Home/DynamicCDN?pecCdnEndpoint=pec/patient-list-care/qa/app.bundle.js"
+                            target="_blank">PEC | PCARE Patient List CDN</a>
+                        <div class="dropdown-divider"></div>
                         <a class="dropdown-item" href="http://pw-dev.herokuapp.com/" target="_blank">PEC Public Site</a>
-                            <div class="dropdown-divider"></div>
+                        <div class="dropdown-divider"></div>
                         <a class="dropdown-item" href="http://dev-web.fetchcare.io/" target="_blank">Fetch Portal</a>
-                            <div class="dropdown-divider"></div>
+                        <div class="dropdown-divider"></div>
                         <a class="dropdown-item" href="http://dev-admin.fetchcare.io/" target="_blank">Fetch Admin</a>
-                            <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="https://fetch-care-dev.herokuapp.com/" target="_blank">Fetch Public Site</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="https://fetch-care-dev.herokuapp.com/" target="_blank">Fetch
+                            Public Site</a>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-12">
+            <div class="col-lg-2 col-md-12">
                 <div class="dropdown">
-                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      Staging
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Staging
                     </button>
                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                         <a class="dropdown-item" href="https://webstg.prescribewellness.com/" target="_blank">PEC</a>
-                            <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="https://wwwstg.prescribewellness.com/" target="_blank">PEC Public Site</a>
-                            <div class="dropdown-divider"></div>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="https://wwwstg.prescribewellness.com/" target="_blank">PEC Public
+                            Site</a>
+                        <div class="dropdown-divider"></div>
                         <a class="dropdown-item" href="https://stg-web.fetchcare.io/" target="_blank">Fetch Portal</a>
-                            <div class="dropdown-divider"></div>
+                        <div class="dropdown-divider"></div>
                         <a class="dropdown-item" href="https://stg-admin.fetchcare.io/" target="_blank">Fetch Admin</a>
-                            <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="https://wwwstg.fetchcare.io/" target="_blank">Fetch Public Site</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="https://wwwstg.fetchcare.io/" target="_blank">Fetch Public
+                            Site</a>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-12">
+            <div class="col-lg-2 col-md-12">
                 <div class="dropdown">
-                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      Production
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Production
                     </button>
                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                         <a class="dropdown-item" href="https://web.prescribewellness.com/" target="_blank">PEC</a>
-                            <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="https://www.prescribewellness.com/" target="_blank">PEC Public Site</a>
-                            <div class="dropdown-divider"></div>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="https://www.prescribewellness.com/" target="_blank">PEC Public
+                            Site</a>
+                        <div class="dropdown-divider"></div>
                         <a class="dropdown-item" href="https://web.fetchcare.io/" target="_blank">Fetch Portal</a>
-                            <div class="dropdown-divider"></div>
+                        <div class="dropdown-divider"></div>
                         <a class="dropdown-item" href="https://admin.fetchcare.io/" target="_blank">Fetch Admin</a>
-                            <div class="dropdown-divider"></div>
+                        <div class="dropdown-divider"></div>
                         <a class="dropdown-item" href="https://www.fetchcare.io/" target="_blank">Fetch Public Site</a>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-3 col-md-12">
+            <div class="col-lg-2 col-md-12">
                 <div class="dropdown">
-                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Beta
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="https://beta-web.prescribewellness.com" target="_blank">Beta</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-12">
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Resources
                     </button>
                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                        <a class="dropdown-item" href="https://workforcenow.adp.com/workforcenow/login.html" target="_blank">ADP</a>
-                            <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="https://prescribewellnessllc.account.box.com" target="_blank">Box</a>
-                            <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="https://prescribewellness.atlassian.net/wiki/" target="_blank">Confluence</a>
-                            <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="https://developers.facebook.com" target="_blank">Facebook Developer</a>
-                            <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="https://analytics.google.com/analytics/web/" target="_blank">Google Analytics</a>
-                            <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="https://workforcenow.adp.com/workforcenow/login.html"
+                            target="_blank">ADP</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="https://prescribewellnessllc.account.box.com"
+                            target="_blank">Box</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="https://prescribewellness.atlassian.net/wiki/"
+                            target="_blank">Confluence</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="https://developers.facebook.com" target="_blank">Facebook
+                            Developer</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="https://analytics.google.com/analytics/web/"
+                            target="_blank">Google Analytics</a>
+                        <div class="dropdown-divider"></div>
                         <a class="dropdown-item" href="https://global.gotomeeting.com/" target="_blank">GoToMeeting</a>
-                            <div class="dropdown-divider"></div>
+                        <div class="dropdown-divider"></div>
                         <a class="dropdown-item" href="https://projects.invisionapp.com" target="_blank">InVision</a>
-                            <div class="dropdown-divider"></div>
+                        <div class="dropdown-divider"></div>
                         <a class="dropdown-item" href="https://prescribewellness.atlassian.net" target="_blank">Jira</a>
-                            <div class="dropdown-divider"></div>
+                        <div class="dropdown-divider"></div>
                         <a class="dropdown-item" href="https://looker.prescribewellness.com" target="_blank">Looker</a>
-                            <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="https://prescribewellness.my.salesforce.com" target="_blank">Salesforce</a>
-                            <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="https://prescribewellness--scrumlogic.cs19.my.salesforce.com" target="_blank">Salesforce Sandbox</a>
-                            <div class="dropdown-divider"></div>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="https://prescribewellness.my.salesforce.com"
+                            target="_blank">Salesforce</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="https://prescribewellness--scrumlogic.cs19.my.salesforce.com"
+                            target="_blank">Salesforce Sandbox</a>
+                        <div class="dropdown-divider"></div>
                         <a class="dropdown-item" href="https://t-net.trhc.com/" target="_blank">Tabula Rasa | T-net</a>
-                            <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="https://tabularasahealthcare.ellucid.com/userLogin" target="_blank">Tabula Rasa | Policy Manager</a>
-                            <div class="dropdown-divider"></div>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="https://tabularasahealthcare.ellucid.com/userLogin"
+                            target="_blank">Tabula Rasa | Policy Manager</a>
+                        <div class="dropdown-divider"></div>
                         <a class="dropdown-item" href="https://www.twilio.com/console" target="_blank">Twilio</a>
                     </div>
                 </div>
             </div>
+            <div class="col-lg-1"></div>
         </div>
     </div>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
 </body>
