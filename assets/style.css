@@ -34,6 +34,7 @@ button {
 button:hover {
     background: #F66834 !important;
 }
+
 .dropdown {
     position: relative;
 }
@@ -57,4 +58,9 @@ button:hover {
     button {
         font-size: 12px !important;
     }
+}
+
+/* TRHC Fundamentals Styling*/
+#trhc_button {
+    background: #736F75 !important;
 }
