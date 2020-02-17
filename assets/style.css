@@ -43,6 +43,12 @@ button:hover {
     background:#f67f54;
 }
 
+/* TRHC Fundamentals Button */
+#trhc_button {
+    background: #736F75 !important;
+}
+
+/* Media Queries */
 @media screen and (max-width: 992px) {
     button {
         background: #f67f54 !important;
@@ -58,9 +64,4 @@ button:hover {
     button {
         font-size: 12px !important;
     }
-}
-
-/* TRHC Fundamentals Styling*/
-#trhc_button {
-    background: #736F75 !important;
 }
