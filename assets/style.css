@@ -47,6 +47,11 @@ button:hover {
 #trhc_button {
     background: #736F75 !important;
 }
+#quoteDisplay {
+    font-size: 35px ;
+    font-weight: 525;
+    color: #707070;
+}
 
 /* Media Queries */
 @media screen and (max-width: 992px) {
@@ -57,6 +62,15 @@ button:hover {
         padding-left: 40% !important;
         padding-right: 40% !important;
         margin-bottom: 2% !important;
+    }
+    #trhc_button {
+        background: #736F75 !important;
+        padding-left: 0% !important;
+        padding-right: 0% !important;
+        margin-bottom: 2% !important;
+    }
+    #quoteDisplay {
+        font-size: 30px ;
     }
 }
 
