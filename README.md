@@ -1,2 +1,2 @@
 # uat
-dashboard for UAT
+dashboard for Quality Assurance
