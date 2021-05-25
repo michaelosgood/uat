@@ -4,7 +4,7 @@ var quotes = [
 "2. Make quality personal.", 
 "3. Walk in your customer's shoes.", 
 "4. Work with a sense of urgency.",
-"5. Get clear on expectaions.",
+"5. Get clear on expectations.",
 "6. Speak straight.",
 "7. Make the patient primary.",
 "8. Focus on others.",
