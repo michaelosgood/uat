@@ -21,7 +21,6 @@
     <!-- CSS Stylesheet -->
     <link rel="stylesheet" type="text/css" href="assets/style.css">
 </head>
-
 <body>
     <div class="container-fluid">
         <div class="row">
@@ -34,7 +33,6 @@
     </div>
     <div class="container">
         <div class="row">
-            <div class="col-lg-1"></div>
             <div class="col-lg-2 col-md-12">
                 <div class="dropdown">
                     <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
@@ -217,19 +215,19 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-1"></div>
-        </div>
-        <!-- TRHC Fundamentals Generator-->
-        <div class="row pt-5">
-            <div class="col-lg-6 col-md-12 col-sm-12 offset-lg-3">
-                <button class="btn btn-secondary text-center" type="button" onclick="newQuote()" id="trhc_button"> Generate a TRHC Fundamental</button>
+            <div class="col-lg-2 col-md-12">
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        TDS Resources
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="https://www.tdsclinical.com/" target="_blank">TDS</a>
+                    </div>
+                </div>
             </div>
-            <div class="col-12 text-center">
-                <div class="pt-4" id="quoteDisplay">
-                    <!-- TRHC Fundamentals will display here  -->
-                </div> 
-            </div>
         </div>
+
     </div>
     <script src="assets/javascript/app.js"></script>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
