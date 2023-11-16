@@ -6,49 +6,53 @@ body {
     position: relative;
     width: 100%;
     height: 88px;
-    background: #FFFFFF;
-    border-bottom: 1px solid #fff;
+    /* background: #FFFFFF; */
+    background: #59bb80;
+    border-bottom: 1px solid #59bb80;
     margin-bottom: 2%;
+    padding-top: 1.5%;
     box-shadow:0 1px 10px rgba(0, 0, 0, 0.45);
 }
 
 #qa {
     font-family: 'Open Sans',sans-serif!important;
     font-weight: 525;
-    color: #1D324A;
+    color: #FFFFFF;
     font-size: 30px;
     }
 
 .header {
-    background: #FFFFFF;
+    background: #59bb80;
     height: 44px;
     width: 100% !important;
 }
 
 button {
-    background:#54B5CB !important;
-    color: #1D324A;
+    background:#59bb80 !important;
     width: 100%;
 }
 
 button:hover {
-    background: #00B5CC !important;
+    background: #489868 !important;
 }
 
 .dropdown {
     position: relative;
+    /* background: #59bb80; */
 }
+
+/* .dropdown a {
+    color: #59bb80;
+} */
+
 .dropdown a:hover {
-    color:#FFFFFF;
-    background: #216FA0;
+    color: #489868;
 }
 
 
 /* Media Queries */
 @media screen and (max-width: 992px) {
     button {
-        background:#54B5CB !important;
-        color: #1D324A;
         font-size: 18px;
         padding-left: 40% !important;
         padding-right: 40% !important;
