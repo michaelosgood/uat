@@ -6,9 +6,8 @@ body {
     position: relative;
     width: 100%;
     height: 88px;
-    /* background: #FFFFFF; */
-    background: #59bb80;
-    border-bottom: 1px solid #59bb80;
+    background: #00405c;
+    border-bottom: 1px solid #00405c;
     margin-bottom: 2%;
     padding-top: 1.5%;
     box-shadow:0 1px 10px rgba(0, 0, 0, 0.45);
@@ -22,7 +21,7 @@ body {
     }
 
 .header {
-    background: #59bb80;
+    background: #00405c;
     height: 44px;
     width: 100% !important;
 }
@@ -36,19 +35,21 @@ button:hover {
     background: #489868 !important;
 }
 
-.dropdown {
-    position: relative;
-    /* background: #59bb80; */
+.dropdown-item:active {
+    background: #59bb80;
 }
 
-/* .dropdown a {
-    color: #59bb80;
-} */
+.dropdown {
+    position: relative;
+}
 
 .dropdown a:hover {
     color: #489868;
 }
 
+.dropdown a:active {
+    color: #FFFFFF;
+}
 
 /* Media Queries */
 @media screen and (max-width: 992px) {
